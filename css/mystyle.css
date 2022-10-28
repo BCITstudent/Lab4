@@ -1,9 +1,9 @@
 body{
-    background-color: #e5e5dc;
+    background-color: #edddd0;
 }
 
 
-h1{
+.top{
     color: #db504a;
 }
 
@@ -15,18 +15,39 @@ p{
     color: #334259;
 }
 
-#one{
-    grid-column: 2/4;
+.container{
+    background-color:#edddd0;
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows: 100px;
+}
+.container div{
+    flex-basis:100px;
+    flex-grow:1;
+}
+
+.one{
+    grid-row:2/3;
+    grid-column: 3/3;
     background-color: #a6cad4;
     text-align: center;
 }
 
-#two{
-    grid-template-rows:;
+.two{
+    grid-column: 4;
+    grid-row:3;
 }
 
 
-#three{
+.three{
     background-color: #a6cad4;
+    grid-row:4;
+    grid-column: 3;
     text-align: center;
+}
+
+.four{
+    grid-column:2;
+    grid-row: 3/3;
+    
 }
