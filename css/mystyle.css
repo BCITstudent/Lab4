@@ -3,7 +3,6 @@ body{
 }
 
 .topnav{
-    background-color: lightblue;
     text-align: center;
 }
 
@@ -17,4 +16,10 @@ h1{
 
 p{
     color: rgb(238,130,238);
+}
+
+#one{
+    grid-column: 2/4;
+    background-color: red;
+    text-align: center;
 }
