@@ -1,13 +1,10 @@
 body{
-    background-color: blue;
+    background-color: #e5e5dc;
 }
 
-.topnav{
-    text-align: center;
-}
 
 h1{
-    color: #00ffff;
+    color: #db504a;
 }
 
 #headings{
@@ -15,17 +12,21 @@ h1{
 }
 
 p{
-    color: rgb(238,130,238);
+    color: #334259;
 }
 
 #one{
     grid-column: 2/4;
-    background-color: red;
+    background-color: #a6cad4;
     text-align: center;
+}
+
+#two{
+    grid-template-rows:;
 }
 
 
 #three{
-    background-color: lightblue;
+    background-color: #a6cad4;
     text-align: center;
 }
