@@ -15,6 +15,9 @@ p{
     color: #334259;
 }
 
+nav{
+    display: grid;
+}
 .container{
     background-color:#edddd0;
     display:grid;
@@ -53,6 +56,8 @@ p{
     
 }
 
-@media screen (width:400px;) {
-    
+@media (min-width:600px){
+    nav{
+        display: inline;
+    }
 }
