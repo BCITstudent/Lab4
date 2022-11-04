@@ -15,6 +15,21 @@ p{
     color: #334259;
 }
 
+ul {
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 40px;
+  }
+  
+  ul li span {
+    border-radius: 50%;
+    border: black 1px solid;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+
 nav{
     display: grid;
 }
