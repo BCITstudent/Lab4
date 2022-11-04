@@ -15,29 +15,6 @@ p{
     color: #334259;
 }
 
-ul {
-    list-style: none;
-}
-  
-ul li {
-    margin-bottom: 40px;
-}
-
-
-.divided {
-    display: flex;
-    align-items: center;
-}
-  
-.divider {
-    flex-grow: 1;
-    border-bottom: 1px solid black;
-    margin: 5px
-}
-
-nav{
-    display: grid;
-}
 .container{
     background-color:#edddd0;
     display:grid;
@@ -76,48 +53,41 @@ nav{
     
 }
 
-@media (min-width:600px){
-    nav{
-        display: inline;
-    }
-}
+ul{
+    list-style-type: none;
+  }
 
-@media(min-width:600px){
+@media (min-width:600px){
     .five{
         grid-column: 2;
         grid-row:3;
     }
 }
-
-@media(min-width:600px){
+@media (min-width:600px) {
     .six{
         grid-column: 2;
-        grid-row:3;
+        grid-row: 3;
     }
 }
-
-@media(min-width:600px){
+@media (min-width:600px) {
     .seven{
         grid-column: 2;
         grid-row:3;
     }
 }
-
-@media(min-width:600px){
+@media (min-width:600px) {
     .eight{
-        grid-column:4 ;
+        grid-column: 3;
     }
 }
-
-@media(min-width:600px){
+@media (min-width:600px) {
     .nine{
-        grid-column:4 ;
+        grid-column:3;
     }
 }
 
-@media(min-width:600px){
+@media (min-width:600px) {
     .ten{
-        grid-column:4 ;
+        grid-column:3;
     }
 }
-
