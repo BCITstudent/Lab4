@@ -6,3 +6,12 @@ if (hour < 18) {
   } else {
     num1 = "Good evening";
   }
+var keys = Object.keys(o);   
+var values = []            
+for(var i = 0; i < keys.length; i++) { 
+    var key = keys[i];                
+    values[i] = o[key];                
+}
+while ((courseList != "code") && (courseList != "paper") && (userChoice != "scissors")) {
+    userChoice = prompt(userChoice + " is not valid. Please pick: rock or paper or scissors");
+}
